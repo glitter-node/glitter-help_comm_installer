@@ -1,0 +1,14 @@
+{
+  "name": "modules/glitter-help_comm_installer",
+  "description": "HelpComm required board installer module for Gnuboard7",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Modules\\Glitter\\HelpCommInstaller\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  }
+}
